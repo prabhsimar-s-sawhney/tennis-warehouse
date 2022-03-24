@@ -1,5 +1,5 @@
 # tennis-warehouse
-install django
-install mysql workbench and shell
-add data according to models
-You're good to go!!
+1. Install django.
+2. Install mysql workbench and shell.
+3. Add data according to models.
+4. You're good to go!!
