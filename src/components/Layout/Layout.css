@@ -1,0 +1,10 @@
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.left{
+    width: 10vw;
+}
+.right{
+    width: 80vw;
+}

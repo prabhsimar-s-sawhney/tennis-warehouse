@@ -1,0 +1,15 @@
+.navbar{
+    display: grid;
+    grid-auto-flow:column;
+    background-color: #282828;
+    color: white;
+    padding: 10px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    color: lightgray;
+    text-decoration: none;
+}

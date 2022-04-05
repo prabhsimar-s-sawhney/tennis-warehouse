@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "name": "Babolat",
+        "address": "Delhi",
+        "prod": [
+            {
+                "id": 1,
+                "name": "Pure Drive",
+                "price": 219,
+                "vendor": 1
+            },
+            {
+                "id": 2,
+                "name": "Pure Aero",
+                "price": 219,
+                "vendor": 1
+            },
+            {
+                "id": 3,
+                "name": "Pure Strike",
+                "price": 209,
+                "vendor": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Wilson",
+        "address": "Delhi",
+        "prod": [
+            {
+                "id": 4,
+                "name": "RF 102",
+                "price": 239,
+                "vendor": 2
+            },
+            {
+                "id": 5,
+                "name": "RF 97",
+                "price": 219,
+                "vendor": 2
+            },
+            {
+                "id": 6,
+                "name": "RF 100",
+                "price": 209,
+                "vendor": 2
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Head",
+        "address": "Delhi",
+        "prod": [
+            {
+                "id": 7,
+                "name": "Speed Master",
+                "price": 199,
+                "vendor": 3
+            },
+            {
+                "id": 8,
+                "name": "Speed S",
+                "price": 229,
+                "vendor": 3
+            },
+            {
+                "id": 9,
+                "name": "Speed Pro",
+                "price": 249,
+                "vendor": 3
+            }
+        ]
+    }
+]
