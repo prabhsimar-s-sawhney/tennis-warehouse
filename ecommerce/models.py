@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Vendors(models.Model):
     name = models.CharField(max_length=20)
     address = models.TextField(max_length=200)
@@ -7,13 +8,17 @@ class Vendors(models.Model):
     def __str__(self):
         return self.name
 
+
 class Products(models.Model):
-    vendor = models.ForeignKey(Vendors, on_delete=models.CASCADE)
+    vendor = models.ForeignKey(
+        Vendors, on_delete=models.CASCADE, related_name='prod')
     name = models.CharField(max_length=20)
     price = models.IntegerField()
-    
+    img = models.CharField(max_length=1000)
+
     def __str__(self):
         return self.name
+
 
 class Contacts(models.Model):
     name = models.CharField(max_length=25)

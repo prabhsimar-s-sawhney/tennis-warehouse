@@ -10,4 +10,5 @@ urlpatterns = [
     path('head/', views.head_list, name="head_data"),
     path('wilson/', views.wilson_list, name="wilson_data"),
     path('contact/', views.contact, name="contact"),
+    path('getVendors/', views.vendor_list)
 ]
